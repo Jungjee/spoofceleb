@@ -1,20 +1,21 @@
 ---
 layout: default
 ---
-The SpoofCeleb is a result of combined effort with the [TITW](https://arxiv.org/abs/2409.08711) dataset.
-The TITW dataset segments, filters, and enhances human speech samples in the [VoxCeleb](https://mm.kaist.ac.kr/datasets/voxceleb/) dataset.
+The SpoofCeleb dataset is the result of a collaborative effort leveraging the [TITW](https://arxiv.org/abs/2409.08711) dataset.
+TITW systematically segments, filters, and enhances human speech samples derived from the [VoxCeleb](https://mm.kaist.ac.kr/datasets/voxceleb/) dataset.
 Using TITW, 23 Text-to-Speech (TTS) systems have been trained.
-SpoofCeleb consists of human speech from TITW and synthetic versions of TITW generated from the trained 23 TTS systems.
+SpoofCeleb includes both authentic human speech from TITW and synthetic versions generated using these 23 TTS models.
 
-# Access to data
-Currently, the dataset is hosted at HuggingFace.
-Once request to data has been received with agreement to the terms,
-the authors will review and approve access.
+# Data Access
+The dataset is currently hosted on Hugging Face. Access is granted upon request and agreement to the terms of use.
+Once the request is approved by the authors, you can download the dataset using the following instructions.
 
-Once granted, below code will download the dataset.
+## How to Download
+Before downloading, ensure that you have installed the huggingface-cli tool and logged in via:
 - The user needs to install `huggingface-cli` and login via `huggingface-cli login`.
-- Refer to [link](https://huggingface.co/docs/hub/repositories-getting-started) for guidelines.
+- For further setup guidelines, refer to the [link](https://huggingface.co/docs/hub/repositories-getting-started).
 
+To download the dataset:
 ```python
 huggingface-cli download --repo-type dataset jungjee/spoofceleb
 ```
@@ -23,8 +24,7 @@ huggingface-cli download --repo-type dataset jungjee/spoofceleb
 The SpoofCeleb dataset is available to download under a Creative Commons Attribution 4.0 International License. The copyright of the human speech files remains with the original owners of the video.
 
 # Publication
-
-Please consider citing the below papers if you make use of the SpoofCeleb dataset.
+If you find the SpoofCeleb dataset useful in your research, please consider citing the following paper:
 
 ```bibtex
 @article{jung2024spoofceleb,

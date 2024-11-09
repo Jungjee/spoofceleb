@@ -34,3 +34,11 @@ If you find the SpoofCeleb dataset useful in your research, please consider citi
   year={2024}
 }
 ```
+```bibtex
+@article{jung2024text,
+  title={Text-To-Speech Synthesis In The Wild},
+  author={Jung, Jee-weon and Zhang, Wangyou and Maiti, Soumi and Wu, Yihan and Wang, Xin and Kim, Ji-Hoon and Matsunaga, Yuta and Um, Seyun and Tian, Jinchuan and Shim, Hye-jin and others},
+  journal={arXiv preprint arXiv:2409.08711},
+  year={2024}
+}
+```

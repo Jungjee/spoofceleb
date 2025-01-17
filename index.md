@@ -30,7 +30,7 @@ If you find the SpoofCeleb dataset useful in your research, please consider citi
 @article{jung2024spoofceleb,
   title={SpoofCeleb: Speech Deepfake Detection and SASV In The Wild},
   author={Jung, Jee-weon and Wu, Yihan and Wang, Xin and Kim, Ji-Hoon and Maiti, Soumi and Matsunaga, Yuta and Shim, Hye-jin and Tian, Jinchuan and Evans, Nicholas and Chung, Joon Son and others},
-  journal={arXiv preprint arXiv:2409.17285},
+  journal={IEEE Open Journal of Signal Processing},
   year={2024}
 }
 ```
